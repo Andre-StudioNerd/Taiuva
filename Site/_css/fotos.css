@@ -1,0 +1,134 @@
+@charset "UTF-8";
+ul#album-fotos{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0%;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #888888;
+    -webkit-transition: all .3s ease-in;
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+    
+}
+
+ul#album-fotos li#foto1{
+    background: url('../_imagens/estacao.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 200px;
+    background-color: #ffffff;
+    
+}
+ul#album-fotos li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto2{
+    background: url('../_imagens/posto.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto8{
+    background: url('../_imagens/grupo.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto8:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto9{
+    background: url('../_imagens/clube.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto9:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto5{
+    background: url('../_imagens/estacao_2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto6{
+    background: url('../_imagens/ferrovia.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto6:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto7{
+    background: url('../_imagens/praca.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto7:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li#foto10{
+    background: url('../_imagens/armazem.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    
+    
+}
+ul#album-fotos li span{
+    font-size: 12px;
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
